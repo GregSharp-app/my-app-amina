@@ -1,0 +1,45 @@
+/* for debugging */
+.ss {
+	outline: 0.0625rem solid red;
+}
+body {
+  @apply text-slate-800 dark:text-slate-200;
+}
+section {
+	@apply mx-auto px-5 md:px-6 ;
+ }
+ 
+h1 {
+  @apply text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight;
+}
+
+/* Heading 2 */
+h2 {
+  @apply text-2xl sm:text-3xl md:text-4xl font-semibold leading-tight;
+}
+
+/* Heading 3 */
+h3 {
+  @apply text-xl sm:text-2xl font-medium leading-tight;
+}
+
+/* Heading 4 */
+h4 {
+  @apply text-lg sm:text-xl font-medium leading-tight;
+}
+
+/* Heading 5 */
+h5 {
+  @apply text-base sm:text-lg font-medium leading-tight;
+}
+
+/* Heading 6 */
+h6 {
+  @apply text-sm sm:text-base font-medium leading-tight;
+}
+
+/* Paragraph */
+p {
+  @apply text-base sm:text-lg font-normal leading-relaxed;
+}
+  

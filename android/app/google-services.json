@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "97304382274",
+    "firebase_url": "https://sfe-tutor-bolt-default-rtdb.firebaseio.com",
+    "project_id": "sfe-tutor-bolt",
+    "storage_bucket": "sfe-tutor-bolt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97304382274:android:88a6520da0146e099d96db",
+        "android_client_info": {
+          "package_name": "com.amina.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97304382274-k04butldqr4ifo994htctsvm2qonn3g2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amina.app",
+            "certificate_hash": "3f0e9b8f0ac2b257437683285b39801ef4c5171a"
+          }
+        },
+        {
+          "client_id": "97304382274-o0upsqe8k7la60n2ohsf3u6c5vup7fp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsoThD9MsXkRNLSq9krBGRD0WeEM7Fg8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97304382274-o0upsqe8k7la60n2ohsf3u6c5vup7fp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

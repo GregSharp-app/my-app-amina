@@ -1,2 +1,9 @@
-<h1 class="bg-red-500">TEST ANDROID APP</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<!-- firebase -->
+<!-- https://www.npmjs.com/package/@capacitor-firebase/authentication -->
+<!-- SHA key -->
+<!-- https://github.com/capawesome-team/capacitor-firebase/blob/main/packages/authentication/docs/setup-google.md -->
+<script lang="ts">
+	import PageProducts from '$lib/my-app/page-list-products/PageProducts.svelte';
+	</script>
+
+<PageProducts />

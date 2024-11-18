@@ -23,7 +23,8 @@ const config = {
 
 			strict: true
 
-		})
+		}),
+	
 	}
 };
 
