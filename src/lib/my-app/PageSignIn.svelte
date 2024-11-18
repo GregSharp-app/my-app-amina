@@ -14,6 +14,7 @@
 	} from 'firebase/auth';
 	import { LogInIcon } from 'lucide-svelte';
 	import { toast } from 'svelte-sonner';
+	import Logo from './Logo.svelte';
 
 	const signInWithGoogle = async () => {
 		toast.loading("wait ...")
@@ -45,10 +46,15 @@
 	}
 </script>
 
-<section class="mt-[30%] mx-8 grid">
-	<div class="space-y-8">
-		<h1 class="font-semibold">Welcome,</h1>
-		<span class="text-slate-600">Please login with your Google Account</span>
+<section class="mt-[30%] mx-5 grid">
+	<div class="flex gap-2 items-center justify-center">
+		<Logo/>
+		<span class="text-primary"><b>Agri</b>culture</span>
+	</div>
+	
+	<div class="space-y-8 mt-7">
+		<h3 class="font-semibold">Welcome,</h3>
+		<span class="text-slate-600 mt-2">Please login with your Google Account</span>
 
 		<div class="grid gap-5">
 			<Button onclick={signInWithGoogle}><LogInIcon /> Sign in</Button>
