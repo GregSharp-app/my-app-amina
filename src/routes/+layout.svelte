@@ -10,8 +10,7 @@
 	let { children } = $props();
 </script>
 
-<PageSignIn />
-<!-- <FirebaseApp {auth} {firestore} {storage}>
+<FirebaseApp {auth} {firestore} {storage}>
 	<SignedOut>
 		<PageSignIn />
 	</SignedOut>
@@ -25,4 +24,4 @@
 
 	<Toaster position="top-center" />
 	<ModeWatcher />
-</FirebaseApp> -->
+</FirebaseApp>
